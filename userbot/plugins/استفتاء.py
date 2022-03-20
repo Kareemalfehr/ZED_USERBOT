@@ -17,7 +17,7 @@ async def pollcreator(zedpoll):
         reply_to_id = zedpoll.reply_to_msg_id
     string = "".join(zedpoll.text.split(maxsplit=1)[1:])
     if not string:
-        options = Build_Poll(["- ايي 😊✌️", "- لاع 😏😕", "- مادري 🥱🙄"])
+        options = Build_Poll(["- اه 😊✌️", "- لا 😏😕", "- معرفش 🥱🙄"])
         try:
             await bot.send_message(
                 zedpoll.chat_id,
@@ -34,7 +34,7 @@ async def pollcreator(zedpoll):
         except PollOptionInvalidError:
             await edit_or_reply(
                 zedpoll,
-                "⌔∮ الاستفتاء المستخدم غير صالح (قد تكون المعلومات طويلة جدا).",
+                "⌔∮ الاستفتاء المستخدم مش هينفع (ممكن تكون في معلومات طويله فشخ).",
             )
         except ForbiddenError:
             await edit_or_reply(zedpoll, "⌔∮ هذه الدردشة تحظر استطلاعات الرأي. ")
@@ -60,7 +60,7 @@ async def pollcreator(zedpoll):
             except PollOptionInvalidError:
                 await edit_or_reply(
                     icsspoll,
-                    "⌔∮ الاستفتاء المستخدم غير صالح (قد تكون المعلومات طويلة جدا).",
+                    "⌔∮ الاستفتاء المستخدم مش هينفع (ممكن تكون في معلومات طويله فشخ).",
                 )
             except ForbiddenError:
                 await edit_or_reply(zedpoll, "⌔∮ هذه الدردشة تحظر استطلاعات الرأي. ")

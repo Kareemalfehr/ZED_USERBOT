@@ -14,7 +14,7 @@ async def dev(zelzal):
     )
    
 
-TOSH_PIC = Config.ALIVE_PIC if Config.ALIVE_PIC else "https://telegra.ph/file/4c406eb5e6932d4834947.jpg"
+TOSH_PIC = Config.ALIVE_PIC if Config.ALIVE_PIC else "https://telegra.ph/file/eeb03face4f5ae4d0f76a.jpg"
 
 if Config.TG_BOT_USERNAME is not None and tgbot is not None:
     @tgbot.on(events.InlineQuery)
@@ -27,7 +27,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             buttons = [
                 [
                     Button.url("قنـاة السـورس ⚙️", "https://t.me/ZedThon"),
-                    Button.url("المطـور 👨🏻‍💻", "https://t.me/ZlZZl77"),
+                    Button.url("المطـور 👨🏻‍💻", "https://t.me/EM_96"),
                 ]
             ]
             if TOSH_PIC and TOSH_PIC.endswith((".jpg", ".png", "gif", "mp4")):

@@ -13,8 +13,8 @@ from . import BOT_USERNAME
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
 
 
-@bot.on(admin_cmd(pattern=r"كول ?(.*)", outgoing=True))
-@bot.on(sudo_cmd(pattern=r"كول ?(.*)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"قول ?(.*)", outgoing=True))
+@bot.on(sudo_cmd(pattern=r"قول ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -72,8 +72,8 @@ async def _(event):
 # Zed Helpers
 
 
-@bot.on(admin_cmd(pattern=r"كوول ?(.*)", outgoing=True))
-@bot.on(sudo_cmd(pattern=r"كوول ?(.*)", allow_sudo=True))
+@bot.on(admin_cmd(pattern=r"قوول ?(.*)", outgoing=True))
+@bot.on(sudo_cmd(pattern=r"قوول ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -106,12 +106,12 @@ CMD_HELP.update(
     {
         "ازرار": f"**Plugin : **`ازرار`\
     \n\n**Button post helper**\
-    \n•  **Syntax : **`.كول`\
+    \n•  **Syntax : **`.قول`\
     \n•  **Function :** __For working of this you need your bot({BOT_USERNAME}) in the group/channel you are using and Buttons must be in the format as [Name on button]<buttonurl:link you want to open> and markdown is Default to html__\
-    \n•  **Example :** `.كول + الجمله المراد اظهارها [المطـور]<buttonurl:https://t.me/ZlZZl77> [زد ثـون]<buttonurl:https://t.me/ZedThon> [اوامر السورس]<buttonurl:https://t.me/Zed_Thon>`\
-    \n\n•  **Syntax : **`.كوول`\
+    \n•  **Example :** `.قول + الجمله المراد اظهارها [المطـور]<buttonurl:https://t.me/TELETHON_EGYPT> [دارك تليثون]<buttonurl:https://t.me/TELETHON_EGYPT> [اوامر السورس]<buttonurl:https://t.me/TELETHON_EGYPT>`\
+    \n\n•  **Syntax : **`.قوول`\
     \n•  **Function :** __Buttons must be in the format as [Name on button]<buttonurl:link you want to open>__\
-    \n•  **Example :** `.كوول + الجمله المراد اظهارها [المطـور]<buttonurl:https://t.me/ZlZZl77> [زد ثـون]<buttonurl:https://t.me/ZedThon> [اوامر السورس]<buttonurl:https://t.me/Zed_Thon>`\
+    \n•  **Example :** `.قوول + الجمله المراد اظهارها [المطـور]<buttonurl:https://t.me/TELETHON_EGYPT> [دارك تليثون]<buttonurl:https://t.me/TELETHON_EGYPT> [اوامر السورس]<buttonurl:https://t.me/TELETHON_EGYPT>`\
     "
     }
 )

@@ -16,8 +16,8 @@ from . import ALIVE_NAME, StartTime, get_readable_time, icsv, mention
 from . import reply_id as rd
 
 DEFAULTUSER = ALIVE_NAME or "ZED"
-ZED_MED = Config.ZED_MEDIA or "https://telegra.ph/file/4c406eb5e6932d4834947.jpg"
-ZED_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/4c406eb5e6932d4834947.jpg"
+ZED_MED = Config.ZED_MEDIA or "https://telegra.ph/file/eeb03face4f5ae4d0f76a.jpg"
+ZED_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/eeb03face4f5ae4d0f76a.jpg"
 ZED_TEXT = Config.CUSTOM_ALIVE_TEXT or "𓆩 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑺𝑶𝑼𝑹𝑪𝑬 𝙕𝞝𝘿𝙏𝙃𝙊𝙉 𓆪"
 ZEEM = Config.CUSTOM_ALIVE_EMOJI or "  ⌔∮ "
 
@@ -39,7 +39,7 @@ async def ica(zed):
         ze_c += f"**{ZEEM} اصدار البايثون ↫** `{python_version()}\n`"
         #        ze_c += f"**{ZEEM} مدة التشغيل ↫** `{zeupt}\n`"
         ze_c += f"**{ZEEM} المستخدم ↫** {mention}\n"
-        ze_c += f"**{ZEEM} **  **[قـنـاة الـسـورس]**(https://t.me/ZedThon) .\n"
+        ze_c += f"**{ZEEM} **  **[قـنـاة الـسـورس]**(https://t.me/TELETHON_EGYPT) .\n"
         ze_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
         await zed.client.send_file(
             zed.chat_id, ZED_IMG, caption=ze_c, reply_to=ze_id
@@ -93,7 +93,7 @@ async def ica(zed):
         ze_c += f"**{ZEEM} اصدار البايثون ↫** `{python_version()}\n`"
         #        ze_c += f"**{ZEEM} مدة التشغيل ↫** `{zeupt}\n`"
         ze_c += f"**{ZEEM} المستخدم ↫** {mention}\n"
-        ze_c += f"**{ZEEM} **  **[قـنـاة الـسـورس]**(https://t.me/ZedThon) .\n"
+        ze_c += f"**{ZEEM} **  **[قـنـاة الـسـورس]**(https://t.me/TELETHON_EGYPT) .\n"
         ze_c += f"𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
         await zed.client.send_file(
             zed.chat_id, ZED_MED, caption=ze_c, reply_to=ze_id

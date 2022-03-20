@@ -88,7 +88,7 @@ async def owner(event):
                                  [Button.inline("⚜️ الاذاعه ⚜️",
                                                 data="toshbroad")],
                                  [Button.url("⚜️ الدعم ⚜️",
-                                             "https://t.me/ZedThon")]
+                                             "https://t.me/EM_96")]
                              ])
 
 
@@ -114,7 +114,7 @@ async def logs(event):
         caption="**Heroku** Zed Logs",
         buttons=[
             [Button.url("💠 𝙑𝙄𝙀𝙒 𝙊𝙉𝙇𝙄𝙉𝙀 💠", f"{url}")],
-            [Button.url("💠 𝘾𝙍𝘼𝙎𝙃𝙀𝘿 💠", "t.me/ZedThon")]
+            [Button.url("💠 𝘾𝙍𝘼𝙎𝙃𝙀𝘿 💠", "t.me/EM_96")]
         ])
     await asyncio.sleep(5)
     return os.remove('logs.txt')
@@ -152,7 +152,7 @@ async def settings(event):
                          [Button.url("🔗 رابط السورس🔗", url="https://github.com/Zedthon/ZED_USERBOT")],
                          [Button.url("🔗 رابط التنصيب 🔗", url="https://t.me/ZedThon/105")],
                          [Button.url("✨ الدعم ✨",
-                                     url="https://t.me/ZedThon")]
+                                     url="https://t.me/EM_96")]
                      ])
 
 
@@ -170,7 +170,7 @@ async def settings(event):
                                          "⚜️ لتغير الايڤ وغيرها ⚜️ ⁦⁩", data="custom")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 # zed zag - زغرفه زدثون
@@ -192,7 +192,7 @@ async def settings(event):
                                      "اسماء القنوات 🍇", data="chanlan")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -213,7 +213,7 @@ async def settings(event):
                                          "اسماء بنات 🍇", data="girlan")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 # Boys zag - زغرفه اسماء الشباب
@@ -233,7 +233,7 @@ async def settings(event):
                                          "║ رجوع ║", data="icsname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -283,7 +283,7 @@ async def settings(event):
                                          "║ رجوع ║", data="icsname")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -333,7 +333,7 @@ async def settings(event):
                                          "⫷ التالي ", data="icspio2")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -354,7 +354,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio3")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -375,7 +375,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio4")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -396,7 +396,7 @@ async def settings(event):
                                          "⫷ التالي", data="icspio5")]
                                  ])
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 
 
@@ -525,11 +525,11 @@ async def bot(event):
         await event.delete()
         async with event.client.conversation(OWNER_ID) as conv:
             await conv.send_message("**⌔∮ ارسل لي الصوره التي تضهر عندما يقوم شخص ببدء بوتك يجب ارسالها على شكل ملف :**")
-            await conv.send_message("⌔∮ ارسل /cancel لالغاء وضع الصوره")
+            await conv.send_message("⌔∮ ارسل /الغاء لالغاء وضع الصوره")
             response = await conv.get_response()
             try:
                 themssg = response.message.message
-                if themssg == "/cancel":
+                if themssg == "/الغاء":
                     await conv.send_message("** ⌔∮ تم الالغاء **")
                     return
             except BaseException:
@@ -716,7 +716,7 @@ async def a_txt(event):
             mssg=f"** ⌔∮ تم تغير نص الايڤ من**\n  - `{old_alv}`\n** ⌔∮ الى **\n  - `{themssg}`\n"
             await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon.", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96.", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"alv_pic"))
            )  # pylint: disable=C0321
@@ -753,7 +753,7 @@ async def alv_pic(event):
         mssg=f"**⌔∮ تم تغير الصوره بنجاح انتظر قليلا **.\n"
         await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon.", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96.", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"pm_cus")))
 async def alv(event):
@@ -791,7 +791,7 @@ async def a_txt(event):
             mssg=f"**⌔∮ تم تغير رسالة الحمايه من**\n  - `{old_alv}`\n **⌔∮ الى **\n  - `{themssg}`\n"
             await xx.edit(mssg)
     else:
-        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @ZedThon", alert=True)
+        await event.answer("انت لا تستطيع استخدام البوت احصل على بوتك من @EM_96", alert=True)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"pm_pic"))
            )  # pylint: disable=C0321
@@ -800,11 +800,11 @@ async def alv_pic(event):
         await event.delete()
         await tgbot.send_message(event.chat_id, "** ⌔∮ ارسل لي الصوره التي تريد وضعها في رساله الحمايه الخاصه بك **.")
         async with event.client.conversation(OWNER_ID) as conv:
-            await conv.send_message(" ⌔∮ ارسل /cancel للالغاء 🖤❕")
+            await conv.send_message(" ⌔∮ ارسل /الغاء للالغاء 🖤❕")
             response = await conv.get_response()
             try:
                 themssg=response.message.message
-                if themssg == "/cancel":
+                if themssg == "/الغاء":
                     await conv.send_message("** ⌔∮ تم الالغاء ⚜️**")
                     return
             except:
